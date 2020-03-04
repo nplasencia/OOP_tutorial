@@ -1,4 +1,4 @@
-# Notes of this lesson
+# Notes of this lesson
 
 ### Terminology
 - **Property:** Var inside a class.
