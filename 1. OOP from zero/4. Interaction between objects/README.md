@@ -2,7 +2,7 @@
 
 __parent::function()__ Is used inside a son class to call the method defined inside its parent class.
 
-## Principle "Tell don’t ask"
+## Principle "Tell don’t ask"
 
 This principle says that, besides to ask to an object some information about it or his data and then use them to take a decision, for example:
 
@@ -10,7 +10,6 @@ This principle says that, besides to ask to an object some information about it 
 class Archer extends Unit
 {
     protected $damage = 20;
-
 
     public function attack(Unit $opponent)
     {
