@@ -1,5 +1,5 @@
 # Notes of this lesson
 
 ### Terminology
-- **Property:** Var inside a class.
+- **Property:** Variable inside a class.
 - **Method:** Function inside a class.

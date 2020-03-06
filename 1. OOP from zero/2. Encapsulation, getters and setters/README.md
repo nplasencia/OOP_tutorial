@@ -1,6 +1,6 @@
 # Notes of this lesson
 
-__Encapsulation__ is one of the most important features in POO. With encapsulation we can protect and hide information, preventing any unexpected change.
+__Encapsulation__ is one of the most important features in OOP. With encapsulation we can protect and hide information, preventing any unexpected change.
 
 Every property inside a class could be _public_, _private_ or _protected_.
   
