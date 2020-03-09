@@ -30,6 +30,11 @@ abstract class Unit
 		return $this->hp;
 	}
 
+	public function setArmor($armor)
+	{
+		return $this->armor = $armor;
+	}
+
 	// Methods
 
 	public function move($direction)
@@ -68,9 +73,9 @@ class Soldier extends Unit
 {
 	protected $damage = 40;
 
-	public function __construct($name)
+	public function __construct($name, $armor)
 	{
-		parent::__construct($name);
+		parent::__construct($name, $armor);
 	}
 
 	public function attack(Unit $opponent)
@@ -89,6 +94,11 @@ class Soldier extends Unit
 class Archer extends Unit
 {
 	protected $damage = 20;
+
+	public function __construct($name, $armor)
+	{
+		parent::__construct($name, $armor);
+	}
 
 	public function attack(Unit $opponent)
 	{
@@ -139,12 +149,12 @@ class EvasionArmor implements Armor
 	}
 }
 
-$nau = new Archer('Nau');
-$silence = new Soldier('Silence');
+$nau = new Archer('Nau', new EvasionArmor());
+$silence = new Soldier('Silence', new BronzeArmor());
 
 $nau->attack($silence);
 
-$armor = new BronzeArmor();
+$armor = new SilverArmor();
 $silence->setArmor($armor);
 
 $nau->attack($silence);
