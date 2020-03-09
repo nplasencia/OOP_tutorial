@@ -1,0 +1,19 @@
+{
+    "name": "nplasencia/oop",
+    "description": "Test project for OOP tutorial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nauzet Plasencia",
+            "email": "nauzet.plasencia.cruz@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Nplasencia\\": "src/"
+        }
+    }
+}
