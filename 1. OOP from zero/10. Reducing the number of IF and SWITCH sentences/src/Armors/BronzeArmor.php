@@ -4,10 +4,10 @@ namespace Nplasencia\Armors;
 use Nplasencia\Armor;
 use Nplasencia\Attack;
 
-class BronzeArmor implements Armor
+class BronzeArmor extends Armor
 {
 	public function absorbDamage(Attack $attack)
 	{
-		return $damage / 2;
+		return $attack->getDamage() / 2;
 	}
 }

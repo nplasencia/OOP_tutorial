@@ -1,8 +1,7 @@
 <?php
-
 namespace Nplasencia;
 
-abstract class Unit
+class Unit
 {
 	protected $name;
 	protected $hp = 40;
@@ -46,13 +45,14 @@ abstract class Unit
 
 	public function attack(Unit $opponent)
     {
-        show($this->weapon->getDescription($this, $opponent));
-        $opponent->takeDamage($this->weapon->getDamage());
+        $attack = $this->weapon->createAttack();
+        show($attack->getDescription($this, $opponent));
+        $opponent->takeDamage($attack);
     }
 
-	public function takeDamage($damage)
+	public function takeDamage(Attack $attack)
 	{
-		$this->hp = $this->hp - $this->absorbDamage($damage);
+		$this->hp = $this->hp - $this->absorbDamage($attack);
 		if ($this->hp < 0) {
 			$this->hp = 0;
 		}
@@ -65,12 +65,12 @@ abstract class Unit
 		}
 	}
 
-	protected function absorbDamage($damage)
+	protected function absorbDamage(Attack $attack)
 	{
 		if ($this->armor) {
-			$damage = $this->armor->absorbDamage($damage);
+			return $this->armor->absorbDamage($attack);
 		}
 
-		return $damage;
+		return $attack->getDamage();
 	}
 }

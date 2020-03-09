@@ -1,15 +1,10 @@
 <?php
-
 namespace Nplasencia\Weapons;
 
-use Nplasencia\Unit;
+use Nplasencia\Weapon;
 
-class BasicBow extends Bow
+class BasicBow extends Weapon
 {
     protected $damage = 20;
-
-    public function getDescription(Unit $attacker, Unit $opponent)
-    {
-        return "{$attacker->getName()} throws an arrow to {$opponent->getName()}";
-    }
+    protected $description = ':unit throws an arrow to :opponent';
 }

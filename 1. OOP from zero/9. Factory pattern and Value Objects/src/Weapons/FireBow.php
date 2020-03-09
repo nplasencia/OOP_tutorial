@@ -3,8 +3,9 @@ namespace Nplasencia\Weapons;
 
 use Nplasencia\Weapon;
 
-class BasicBow extends Weapon
+class FireBow extends Weapon
 {
-    protected $damage = 20;
-    protected $description = ':unit throws an arrow to :opponent';
+    protected $damage = 30;
+    protected $magical = true;
+    protected $description = ':unit throws a fire arrow to :opponent';
 }

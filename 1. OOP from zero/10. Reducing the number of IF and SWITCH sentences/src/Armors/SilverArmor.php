@@ -4,13 +4,10 @@ namespace Nplasencia\Armors;
 use Nplasencia\Armor;
 use Nplasencia\Attack;
 
-class SilverArmor implements Armor
+class SilverArmor extends Armor
 {
-
-	public function absorbDamage(Attack $attack)
-	{
-	    if (!$attack->isMagical())
-		    return $attack->getDamage() / 3;
-	    return$attack->getDamage();
-	}
+    public function absorbPhysicalAttack(Attack $attack)
+    {
+        return $attack->getDamage()/3;
+    }
 }

@@ -1,14 +1,13 @@
 <?php
-
 namespace Nplasencia;
 
 use Nplasencia\Weapons\BasicSword;
-use Nplasencia\Weapons\CrossBow;
+use Nplasencia\Weapons\FireBow;
 
 require '../vendor/autoload.php';
 
-$nau = new Archer('Nau', new CrossBow());
-$silence = new Soldier('Silence', new BasicSword());
+$nau = new Unit('Nau', new FireBow());
+$silence = new Unit('Silence', new BasicSword());
 
 $nau->attack($silence);
 

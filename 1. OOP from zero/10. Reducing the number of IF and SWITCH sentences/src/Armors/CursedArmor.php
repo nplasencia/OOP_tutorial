@@ -4,7 +4,7 @@ namespace Nplasencia\Armors;
 use Nplasencia\Armor;
 use Nplasencia\Attack;
 
-class CursedArmor implements Armor
+class CursedArmor extends Armor
 {
 	public function absorbDamage(Attack $attack)
 	{

@@ -1,6 +1,8 @@
 <?php
 namespace Nplasencia;
 
+use Nplasencia\Armors\MissingArmor;
+
 class Unit
 {
 	protected $name;
@@ -12,6 +14,7 @@ class Unit
 	{
 		$this->name = $name;
 		$this->weapon = $weapon;
+		$this->armor = new MissingArmor();
 	}
 
 	// Getters and setters
@@ -52,7 +55,7 @@ class Unit
 
 	public function takeDamage(Attack $attack)
 	{
-		$this->hp = $this->hp - $this->absorbDamage($attack);
+		$this->hp = $this->hp - $this->armor->absorbDamage($attack);
 		if ($this->hp < 0) {
 			$this->hp = 0;
 		}
@@ -63,14 +66,5 @@ class Unit
 			show("{$this->name} has died");
 			exit(); // Lesson purpose
 		}
-	}
-
-	protected function absorbDamage(Attack $attack)
-	{
-		if ($this->armor) {
-			return $this->armor->absorbDamage($attack);
-		}
-
-		return $attack->getDamage();
 	}
 }

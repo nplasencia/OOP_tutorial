@@ -1,39 +1,12 @@
 # Notes of this lesson
 
-## [Composer](https://getcomposer.org/)
+Sometimes, maybe for the description of OOP, we can think that an _Object_ has to be something physical. But this is not correct: an object may be an attack, or a defense, or a calculus...
 
-Dependency manager for PHP.
+## Factory Pattern
 
-1. Install composer.
-1. Execute `composer init`.
-1. Modify the file _composer.json_ and add the next lines:
+It refers to an object or class whose aim is to create or instantiate another class. In our example, a _Weapon_ class can instantiate many _Attack_ classes.
 
-    ```php
-    "autoload": {
-        "psr-4": {
-            "NameSpace\\": "folderOfOurFiles/"
-        }
-    }
-    ```
+## Value Objects (Pattern)
 
-1. Execute `composer dump-autoload`.
-1. We will have a new file called autoload.php inside our folder "vendor".
-1. Add to our index file `require '../vendor/autoload.php';`.
-
-If we want to add the helpers file to the composer autoload:
-
-```php
-"autoload": {
-    "files": ["src/helpers.php"],
-    "psr-4": {
-        "NameSpace\\": "folderOfOurFiles/"
-    }
-}
-```
-
-
-#### Why is our program still working if we have deleted the __spl_autoload_register()__?
-
-In our composer.json we have said that it has to autoload our classes using the standard [PSR-4](https://www.php-fig.org/psr/psr-4/). This defines the autoload standard.   
-
+They let us to join a set of values who have sense together but, if they are separated, they haven't any sense. For example: coordinates or dates.
  
