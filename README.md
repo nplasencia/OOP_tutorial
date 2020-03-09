@@ -10,5 +10,6 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Interaction between objects.](1.%20OOP%20from%20zero/4.%20Interaction%20between%20objects) - [Notes](1.%20OOP%20from%20zero/4.%20Interaction%20between%20objects/README.md)
 1. [Interfaces and polymorphism.](1.%20OOP%20from%20zero/5.%20Interfaces%20and%20polymorphism) - [Notes](1.%20OOP%20from%20zero/5.%20Interfaces%20and%20polymorphism/README.md)
 1. [Class autoload and namespaces.](1.%20OOP%20from%20zero/6.%20Class%20autoload%20and%20namespaces) - [Notes](1.%20OOP%20from%20zero/6.%20Class%20autoload%20and%20namespaces/README.md)
+1. [Classes autoload with Composer and PSR-4](1.%20OOP%20from%20zero/7.%20Classes%20autoload%20with%20Composer%20and%20PSR-4) - [Notes](1.%20OOP%20from%20zero/7.%20Classes%20autoload%20with%20Composer%20and%20PSR-4/README.md)
 
 Thank you @StydeNet.
