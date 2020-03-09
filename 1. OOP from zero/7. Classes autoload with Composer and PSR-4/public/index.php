@@ -4,8 +4,8 @@ namespace Nplasencia;
 
 require '../vendor/autoload.php';
 
-$nau = new Archer('Nau', new Armors\EvasionArmor());
-$silence = new Soldier('Silence', new Armors\BronzeArmor());
+$nau = new Archer('Nau');
+$silence = new Soldier('Silence');
 
 $nau->attack($silence);
 

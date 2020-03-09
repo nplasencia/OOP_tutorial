@@ -8,10 +8,9 @@ abstract class Unit
 	protected $hp = 40;
 	protected $armor;
 
-	public function __construct($name, Armor $armor)
+	public function __construct($name)
 	{
 		$this->name = $name;
-		$this->armor = $armor;
 	}
 
 	// Getters and setters
@@ -26,7 +25,7 @@ abstract class Unit
 		return $this->hp;
 	}
 
-	public function setArmor($armor)
+	public function setArmor(Armor $armor = null)
 	{
 		return $this->armor = $armor;
 	}
