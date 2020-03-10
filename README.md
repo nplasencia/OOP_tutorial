@@ -15,4 +15,8 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Factory Pattern and Value Objects](1.%20OOP%20from%20zero/9.%20Factory%20pattern%20and%20Value%20Objects) - [Notes](1.%20OOP%20from%20zero/9.%20Factory%20pattern%20and%20Value%20Objects/README.md)
 1. [Reducing the number of IF and SWITCH sentences](1.%20OOP%20from%20zero/10.%20Reducing%20the%20number%20of%20IF%20and%20SWITCH%20sentences)
 
+## 2. Static methods and properties. Constants
+
+1. [Static methods and properties]()
+
 Thank you @StydeNet.
