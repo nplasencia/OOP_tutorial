@@ -1,0 +1,8 @@
+(2020-03-10 15:05:45) Nau throws a fire arrow to Silence
+  (2020-03-10 15:05:45) Silence has 10 points of life
+  (2020-03-10 15:05:45) Silence throws a fire arrow to Nau
+  (2020-03-10 15:05:45) Nau has 10 points of life
+  (2020-03-10 15:05:45) Nau throws a fire arrow to Silence
+  (2020-03-10 15:05:45) Silence has 0 points of life
+  (2020-03-10 15:05:45) Silence has died
+  

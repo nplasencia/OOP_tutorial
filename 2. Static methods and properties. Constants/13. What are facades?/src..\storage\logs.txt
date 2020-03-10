@@ -1,0 +1,29 @@
+(2020-03-10 15:00:38) Nau throws a fire arrow to Silence
+  (2020-03-10 15:00:38) Silence has 10 points of life
+  (2020-03-10 15:00:38) Silence throws a fire arrow to Nau
+  (2020-03-10 15:00:38) Nau has 10 points of life
+  (2020-03-10 15:00:38) Nau throws a fire arrow to Silence
+  (2020-03-10 15:00:38) Silence has 0 points of life
+  (2020-03-10 15:00:38) Silence has died
+  (2020-03-10 15:01:07) Nau throws a fire arrow to Silence
+  (2020-03-10 15:01:07) Silence has 10 points of life
+  (2020-03-10 15:01:07) Silence throws a fire arrow to Nau
+  (2020-03-10 15:01:07) Nau has 10 points of life
+  (2020-03-10 15:01:07) Nau throws a fire arrow to Silence
+  (2020-03-10 15:01:07) Silence has 0 points of life
+  (2020-03-10 15:01:07) Silence has died
+  (2020-03-10 15:01:28) Nau throws a fire arrow to Silence
+  (2020-03-10 15:01:28) Silence has 10 points of life
+  (2020-03-10 15:01:28) Silence throws a fire arrow to Nau
+  (2020-03-10 15:01:28) Nau has 10 points of life
+  (2020-03-10 15:01:28) Nau throws a fire arrow to Silence
+  (2020-03-10 15:01:28) Silence has 0 points of life
+  (2020-03-10 15:01:28) Silence has died
+  (2020-03-10 15:02:14) Nau throws a fire arrow to Silence
+  (2020-03-10 15:02:14) Silence has 10 points of life
+  (2020-03-10 15:02:14) Silence throws a fire arrow to Nau
+  (2020-03-10 15:02:14) Nau has 10 points of life
+  (2020-03-10 15:02:14) Nau throws a fire arrow to Silence
+  (2020-03-10 15:02:14) Silence has 0 points of life
+  (2020-03-10 15:02:14) Silence has died
+  
