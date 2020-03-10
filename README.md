@@ -17,6 +17,7 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 
 ## 2. Static methods and properties. Constants
 
-1. [Static methods and properties]()
+1. [Static methods and properties](2.%20Static%20methods%20and%20properties.%20Constants/11.%20Static%20Methods%20and%20properties) - [Notes](2.%20Static%20methods%20and%20properties.%20Constants/11.%20Static%20Methods%20and%20properties/README.md)
+1. [Named constructors and fluent interfaces](2.%20Static%20methods%20and%20properties.%20Constants/12.%20Named%20constructors%20and%20fluent%20interfaces) - [Notes](2.%20Static%20methods%20and%20properties.%20Constants/12.%20Named%20constructors%20and%20fluent%20interfaces/README.md)
 
 Thank you @StydeNet.
