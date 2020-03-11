@@ -24,5 +24,6 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 ## 3. Magic methods
 
 1. [Magic methods: __get, __set, __isset and __unset](3.%20Magic%20methods/15.%20Magic%20methods:%20__get,%20__set,%20__isset%20and%20__unset) - [Notes](3.%20Magic%20methods/15.%20Magic%20methods:%20__get,%20__set,%20__isset%20and%20__unset/README.md)
+1. [Method dynamic call](3.%20Magic%20methods/16.%20Method%20dynamic%20call)
 
 Thank you @StydeNet.
