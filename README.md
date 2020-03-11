@@ -21,4 +21,8 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Named constructors and fluent interfaces](2.%20Static%20methods%20and%20properties.%20Constants/12.%20Named%20constructors%20and%20fluent%20interfaces) - [Notes](2.%20Static%20methods%20and%20properties.%20Constants/12.%20Named%20constructors%20and%20fluent%20interfaces/README.md)
 1. [What are facades?](2.%20Static%20methods%20and%20properties.%20Constants/13.%20What%20are%20facades%3F) - [Notes](2.%20Static%20methods%20and%20properties.%20Constants/13.%20What%20are%20facades%3F/README.md)
 
+## 3. Magic methods
+
+1. [Magic methods: __get, __set, __isset and __unset](3.%20Magic%20methods/15.%20Magic%20methods:%20__get,%20__set,%20__isset%20and%20__unset) - [Notes](3.%20Magic%20methods/15.%20Magic%20methods:%20__get,%20__set,%20__isset%20and%20__unset/README.md)
+
 Thank you @StydeNet.
