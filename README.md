@@ -28,5 +28,6 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Magic methods __call and __callstatic](3.%20Magic%20methods/17.%20Magic%20methods%20_call%20and%20_callstatic) - [Notes](3.%20Magic%20methods/17.%20Magic%20methods%20_call%20and%20_callstatic/README.md)
 1. [Magic methods __toString and __invoke](3.%20Magic%20methods/18.%20Magic%20methods%20_toString%20and%20_invoke) - [Notes](3.%20Magic%20methods/18.%20Magic%20methods%20_toString%20and%20_invoke/README.md)
 1. [Magic methods __sleep and __wakeup](3.%20Magic%20methods/19.%20Magic%20methods%20_sleep()%20and%20_wakeup()) - [Notes](3.%20Magic%20methods/19.%20Magic%20methods%20_sleep()%20and%20_wakeup()/README.md)
+1. [Magic method __clone](3.%20Magic%20methods/20.%20Magic%20method%20_clone) - [Notes](3.%20Magic%20methods/20.%20Magic%20method%20_clone/README.md)
 
 Thank you @StydeNet.
