@@ -33,5 +33,6 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 ## 4. Complements
 
 1. [Object Iteration and Count](4.%20Complements/21.%20Object%20iteration) - [Notes](4.%20Complements/21.%20Object%20iteration/README.md)
+1. [Immutable Objects](4.%20Complements/22.%20Immutable%20objects) - [Notes](4.%20Complements/22.%20Immutable%20objects/README.md)
 
 Thank you @StydeNet.
