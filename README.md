@@ -30,4 +30,8 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Magic methods __sleep and __wakeup](3.%20Magic%20methods/19.%20Magic%20methods%20_sleep()%20and%20_wakeup()) - [Notes](3.%20Magic%20methods/19.%20Magic%20methods%20_sleep()%20and%20_wakeup()/README.md)
 1. [Magic method __clone](3.%20Magic%20methods/20.%20Magic%20method%20_clone) - [Notes](3.%20Magic%20methods/20.%20Magic%20method%20_clone/README.md)
 
+## 4. Complements
+
+1. [Object Iteration and Count](4.%20Complements/21.%20Object%20iteration) - [Notes](4.%20Complements/21.%20Object%20iteration/README.md)
+
 Thank you @StydeNet.
