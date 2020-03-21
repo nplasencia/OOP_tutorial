@@ -35,4 +35,11 @@ All the course files for the Object Oriented PHP tutorial based on the [Styde PO
 1. [Object Iteration and Count](4.%20Complements/21.%20Object%20iteration) - [Notes](4.%20Complements/21.%20Object%20iteration/README.md)
 1. [Immutable Objects](4.%20Complements/22.%20Immutable%20objects) - [Notes](4.%20Complements/22.%20Immutable%20objects/README.md)
 
+## 5. Developing with tests (PHPUnit)
+
+1. [Introduction](5.%20Developing%20with%20tests%20(PHPUnit)/27.%20Introduction) - [Notes](5.%20Developing%20with%20tests%20(PHPUnit)/27.%20Introduction/README.md)
+1. [Array Access - Part I](5.%20Developing%20with%20tests%20(PHPUnit)/28.%20Array%20Access%20-%20Part%20I) - [Notes](5.%20Developing%20with%20tests%20(PHPUnit)/28.%20Array%20Access%20-%20Part%20I/README.md)
+1. [Array Access - Part II](5.%20Developing%20with%20tests%20(PHPUnit)/29.%20Array%20Access%20-%20Part%20II) - [Notes](5.%20Developing%20with%20tests%20(PHPUnit)/29.%20Array%20Access%20-%20Part%20II/README.md)
+1. [Anonymous classes](5.%20Developing%20with%20tests%20(PHPUnit)/30.%20Anonymous%20classes) - [Notes](5.%20Developing%20with%20tests%20(PHPUnit)/30.%20Anonymous%20classes/README.md)
+
 Thank you @StydeNet.
