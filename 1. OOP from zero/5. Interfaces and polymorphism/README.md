@@ -8,10 +8,10 @@ If a class implements an interface, then all methods defined by that interface m
 
 An interface can't be instantiated.
 
-#### · Difference between an abstract class and a interface
+#### · Difference between an abstract class and a interface
 
 An abstract class is something between a class and an interface. It contains a contract (abstract methods that have to be implemented by the son class) but it has also concrete methods implemented.
 
-## Polymorphism
+## Polymorphism
 
 Many instances of the same class but, for any reason, they are different between them. In our lesson, we can have a lot of objects of class Soldier but they can be different depending of what type of armor has each one.
